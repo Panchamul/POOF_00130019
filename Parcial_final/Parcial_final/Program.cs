@@ -18,5 +18,15 @@ namespace Parcial_final
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        internal struct User
+        {
+            public int Id;
+            public string Name;
+            public string Nickname;
+            public string Password;
+            public bool Type;
+        }
+
+        public static User activeUser = new User();
     }
 }

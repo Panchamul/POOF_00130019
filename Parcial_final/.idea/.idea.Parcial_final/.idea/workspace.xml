@@ -1,28 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0c92ce3-5c64-4e5a-aea8-2328db007d07" name="Default Changelist" comment="" />
+    <list default="true" id="e0c92ce3-5c64-4e5a-aea8-2328db007d07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Parcial_final/Asistencia.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial_final/Editar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial_final/Historial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial_final/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Parcial_final/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parcial_final/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Parcial_final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parcial_final/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/Parcial_final.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/Parcial_final.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/bin/Debug/Parcial_final.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/bin/Debug/Parcial_final.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/bin/Debug/Parcial_final.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/bin/Debug/Parcial_final.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/bin/Debug/Parcial_final.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/bin/Debug/Parcial_final.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial_final/obj/Debug/Parcial_final.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Parcial_final/ConexionDB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Parcial_final/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Main.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Asistencia.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Main.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Asistencia.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Historial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Editar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/ConexionDB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Historial.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Parcial_final/Editar.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Parcial_final/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Parcial_final/Validator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Parcial_final/Form1.cs" />
         <option value="$PROJECT_DIR$/Parcial_final/ConexionDB.cs" />
         <option value="$PROJECT_DIR$/Parcial_final/Validator.cs" />
+        <option value="$PROJECT_DIR$/Parcial_final/Main.Designer.cs" />
+        <option value="$PROJECT_DIR$/Parcial_final/Program.cs" />
+        <option value="$PROJECT_DIR$/Parcial_final/Form1.cs" />
+        <option value="$PROJECT_DIR$/Parcial_final/Historial.Designer.cs" />
+        <option value="$PROJECT_DIR$/Parcial_final/Historial.cs" />
+        <option value="$PROJECT_DIR$/Parcial_final/Asistencia.Designer.cs" />
+        <option value="$PROJECT_DIR$/Parcial_final/Editar.Designer.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1e8dc02sGl3Cjnk499fiEyBefLd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +81,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,31 +121,44 @@
       <option name="presentableId" value="Default" />
       <updated>1593707244009</updated>
       <workItem from="1593707264031" duration="4091000" />
+      <workItem from="1593711861542" duration="897000" />
+      <workItem from="1593729334554" duration="4341000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593711571528">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1593732218747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593711571528" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593711571528">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593732218747" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1593732218747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593711571528" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593711571528">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593732218747" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1593732218747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593711571528" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593711571528">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593732218747" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1593732218747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593711571528" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593732218747" />
     <state x="275" y="96" key="Rider.ProjectTemplateDialog.Size" timestamp="1593708088956">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

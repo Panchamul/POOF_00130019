@@ -62,6 +62,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
@@ -71,7 +72,7 @@
             this.textBox1.Location = new System.Drawing.Point(180, 174);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(424, 34);
+            this.textBox1.Size = new System.Drawing.Size(423, 33);
             this.textBox1.TabIndex = 2;
             // 
             // label2
@@ -107,7 +108,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(424, 34);
+            this.textBox2.Size = new System.Drawing.Size(423, 33);
             this.textBox2.TabIndex = 5;
             // 
             // Form1

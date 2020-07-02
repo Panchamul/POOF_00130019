@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\andre\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\andre\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Parcial_final.-85626275.00" t="ExcludeRecursive" />
-    <e p="C:\Users\andre\RiderProjects\Parcial_final" t="IncludeFlat">
+    <e p="C:\Users\andre\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Parcial_final.665577212.00" t="ExcludeRecursive" />
+    <e p="C:\Users\andre\Desktop\POOF_00130019\Parcial_final" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Parcial_final" t="IncludeRecursive">
         <e p="App.config" t="Include" />
+        <e p="Asistencia.cs" t="Include" />
+        <e p="Asistencia.Designer.cs" t="Include" />
+        <e p="Asistencia.resx" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ConexionDB.cs" t="Include" />
+        <e p="Editar.cs" t="Include" />
+        <e p="Editar.Designer.cs" t="Include" />
+        <e p="Editar.resx" t="Include" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
+        <e p="Historial.cs" t="Include" />
+        <e p="Historial.Designer.cs" t="Include" />
+        <e p="Historial.resx" t="Include" />
+        <e p="Main.cs" t="Include" />
+        <e p="Main.Designer.cs" t="Include" />
+        <e p="Main.resx" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Parcial_final.csproj" t="IncludeRecursive" />
