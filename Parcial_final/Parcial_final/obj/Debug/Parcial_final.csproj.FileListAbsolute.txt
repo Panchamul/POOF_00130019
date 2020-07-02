@@ -1,0 +1,9 @@
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\bin\Debug\Parcial_final.exe.config
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\bin\Debug\Parcial_final.exe
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\bin\Debug\Parcial_final.pdb
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\obj\Debug\Parcial_final.csprojAssemblyReference.cache
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\obj\Debug\Parcial_final.Properties.Resources.resources
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\obj\Debug\Parcial_final.csproj.GenerateResource.cache
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\obj\Debug\Parcial_final.exe
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\obj\Debug\Parcial_final.pdb
+C:\Users\andre\RiderProjects\Parcial_final\Parcial_final\obj\Debug\Parcial_final.Form1.resources
