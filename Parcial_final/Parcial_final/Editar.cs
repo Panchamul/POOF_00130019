@@ -34,6 +34,8 @@ namespace Parcial_final
             dataGridView3.DataSource = dt;
             var dtu = ConexionDB.executeQuery("SELECT * FROM USUARIO");
             dataGridView1.DataSource = dtu;
+            var dtup = ConexionDB.executeQuery("SELECT * FROM REGISTRO");
+            dataGridView2.DataSource = dtup;
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -88,6 +90,34 @@ namespace Parcial_final
                 {
                     MessageBox.Show("Ha ocurrido un error @.@");
                 }   
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox6.Text.Trim() == "" || textBox7.Text.Trim() == "")
+            {
+                MessageBox.Show("No puede dejar campos vacios");
+            }
+            else
+            {
+                try
+                {
+                    LoadDataToTables();
+                    string query = $"INSERT INTO DEPARTAMENTO(nombre, ubicacion) " +
+                                   $"VALUES(" +
+                                   $"'{textBox6.Text}'," +
+                                   $"{textBox7.Text})";
+                    ConexionDB.ExecuteNonQuery(query);
+                    
+
+                    MessageBox.Show("departamento agregado");
+                    LoadDataToTables();
+                }
+                catch (Exception exception)
+                {
+                    MessageBox.Show("Ha ocurrido un error @.@");
+                }
             }
         }
     }

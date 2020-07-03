@@ -1,0 +1,35 @@
+CREATE TABLE DEPARTAMENTO(
+	idDepartamento SERIAL PRIMARY KEY,
+	nombre VARCHAR(100) NOT NULL,
+	ubicacion VARCHAR(500) NOT NULL
+);
+CREATE TABLE USUARIO(
+	idUsuario INT PRIMARY KEY,
+	idDepartamento INT NOT NULL,
+	password VARCHAR(25) NOT NULL,
+	nombre VARCHAR(50) NOT NULL,
+	apellido VARCHAR(50) NOT NULL,
+	dui INT NOT NULL,
+	CONSTRAINT fk_departamento
+	FOREIGN KEY(idDepartamento) REFERENCES DEPARTAMENTO(idDepartamento)
+);
+CREATE TABLE REGISTRO(
+	idRegistro SERIAL PRIMARY KEY,
+	idUsuario INT NOT NULL,
+	entrada BOOL NOT NULL,
+	fecha_hora TIMESTAMP NOT NULL,
+	temperatura VARCHAR(25) NOT NULL,
+	CONSTRAINT fk_usuario
+	FOREIGN KEY(idUsuario) REFERENCES USUARIO(idUsuario)
+);
+INSERT INTO DEPARTAMENTO(nombre, ubicacion)
+VALUES('Cuidados intensivos', 'Ala oeste');
+INSERT INTO DEPARTAMENTO(nombre, ubicacion)
+VALUES('Vigilante', 'Entrada Principal');
+INSERT INTO DEPARTAMENTO(nombre, ubicacion)
+VALUES('Administrador', 'Central');
+
+SELECT * FROM USUARIO;
+
+INSERT INTO USUARIO(idUsuario, idDepartamento,password,nombre,apellido,dui)
+VALUES(00130019,1,'123456','Andrea','Chamul',001256587);
