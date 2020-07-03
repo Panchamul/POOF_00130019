@@ -17,17 +17,8 @@ namespace Parcial_final
         private void LoadDataToTables()
         {
             string query = "";
-            if (Program.activeUser.Type)
-            {
-                query = "SELECT ao.idOrder, ao.createDate, pr.name, au.fullname, ad.address FROM APPORDER ao, ADDRESS ad, PRODUCT pr, APPUSER au WHERE ao.idProduct = pr.idProduct AND ao.idAddress = ad.idAddress AND ad.idUser = au.idUser";
-                
-            }
-            else
-            {
-                query = $"SELECT ao.idOrder, ao.createDate, pr.name, au.fullname, ad.address FROM APPORDER ao, ADDRESS ad, PRODUCT pr, APPUSER au WHERE ao.idProduct = pr.idProduct AND ao.idAddress = ad.idAddress AND ad.idUser = au.idUser AND au.idUser = {Program.activeUser.Id.ToString()}";
-
-            }
-            var dt = ConexionDB.executeQuery(query);
+            var dt = ConexionDB.executeQuery(
+                $"SELECT * FROM REGISTRO where idUsuario = '{Program.activeUser.Id.ToString()}'");
             dataGridView1.DataSource = dt;
     }
 }

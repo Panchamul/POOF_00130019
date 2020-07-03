@@ -25,32 +25,27 @@ namespace Parcial_final
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
+     try
             {
-                string query = $"SELECT EXISTS(SELECT * FROM APPUSER WHERE username = '{textBox1.Text}'" +
+                string query = $"SELECT EXISTS(SELECT * FROM USUARIO WHERE idUsuario = '{textBox1.Text}'" +
                                $"AND password = '{textBox2.Text}')";
                 var dt = ConexionDB.executeQuery(query);
-                var dr = dt.Rows[0][0];
-                if ((bool) dr)
-                {
-                    string quer = $"SELECT * FROM APPUSER WHERE username = '{textBox1.Text}'" +
-                                  $"AND password = '{textBox2.Text}'";
+
+                string quer = $"SELECT * FROM USUARIO WHERE idUsuario = '{textBox1.Text}'" +
+                              $"AND password = '{textBox2.Text}'";
 
                     var dte = ConexionDB.executeQuery(quer);
 
                     Program.activeUser.Id = Convert.ToInt32(dte.Rows[0][0]);
                     Program.activeUser.Name = Convert.ToString(dte.Rows[0][1]);
-                    Program.activeUser.Nickname = Convert.ToString(dte.Rows[0][2]);
+                    Program.activeUser.Lastname = Convert.ToString(dte.Rows[0][2]);
                     Program.activeUser.Password = Convert.ToString(dte.Rows[0][3]);
-                    Program.activeUser.Type = Convert.ToBoolean(dte.Rows[0][4]);
+                    Program.activeUser.Type = Convert.ToInt32(dte.Rows[0][4]);
 
                     this.Hide();
                     new Main().Show();
-                }
-                else
-                {
-                    MessageBox.Show("El usuario y contraseña no existen :(");
-                }
+                
+                
             }
             catch
             {

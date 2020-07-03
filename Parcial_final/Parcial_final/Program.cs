@@ -16,15 +16,16 @@ namespace Parcial_final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Main());
         }
         internal struct User
         {
             public int Id;
             public string Name;
-            public string Nickname;
+            public string Lastname;
             public string Password;
-            public bool Type;
+            public int Type;
+            public bool Entrada;
         }
 
         public static User activeUser = new User();

@@ -42,3 +42,5 @@ C:\Users\andre\Desktop\POOF_00130019\Parcial_final\Parcial_final\obj\Debug\Parci
 C:\Users\andre\Desktop\POOF_00130019\Parcial_final\Parcial_final\obj\Debug\Parcial_final.csproj.CopyComplete
 C:\Users\andre\Desktop\POOF_00130019\Parcial_final\Parcial_final\obj\Debug\Parcial_final.exe
 C:\Users\andre\Desktop\POOF_00130019\Parcial_final\Parcial_final\obj\Debug\Parcial_final.pdb
+C:\Users\andre\Desktop\POOF_00130019\Parcial_final\Parcial_final\obj\Debug\Parcial_final.Asistencia.resources
+C:\Users\andre\Desktop\POOF_00130019\Parcial_final\Parcial_final\obj\Debug\Parcial_final.Editar.resources
